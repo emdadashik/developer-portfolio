@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.text-light-dark{
+    color: rgb(71, 71, 71);
+}
+
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+.text-muted{
+    color: rgb(117, 117, 117);
+}
+.btn-primary{
+    color: white;
+    padding: 15px 35px;
+    background-color: rgb(253, 110, 10);
+    border-radius: 5px;
+    font-size: medium;
+    outline: none;
+    border: none;
+    font-weight: 700;
+}
+.btn-secondary{
+    color:rgb(253, 110, 10);
+    border: 2px solid rgb(253, 110, 10);
+    background-color: rgb(255, 248, 243);
+    padding: 13px 35px;
+    border-radius: 5px;
+    font-size: medium;
+    outline: none;
+    font-weight: 700;
+}
+/* Nav related styles */
+.logo{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+/* banner related styles */
+header{
+    background-color: rgb(255, 248, 243);
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 120px;
+    display: flex;
+    align-items: center;
+
+}
+.banner-content{
+    width: 45%;
+}
+.banner-content p {
+    padding: 12px 0px;
+}
+.banner .profile-pic{
+    height: 600px;
+}
+
+/* About Section Styles */
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-area{
+    width: 60%;
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 0px;
+    padding: 80px;
+    background-color: rgb(255, 248, 243);
+    border-radius: 15px;
+}
+.about-description{
+    margin: 12px 0px;
+    
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
+}
+.about-details div{
+    margin-right: 15px;
+}
+
+/* WOrk Section Styles */
+.work-section{
+    padding: 120px;
+}
+.center{
+    text-align: center;
+}
+.gap{
+    margin: 15px 0px;
+}
+.work-box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 22%;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding: 18px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gap-max{
+    margin-bottom: 30px;
+}
+
+/* edu & work section styles */
+.summary-section{
+    padding: 0px 120px;
+}
+.edu-work-area{
+    display: flex;
+    margin-bottom: 40px;
+}
+.edu-area{
+    width: 45%;
+    margin-left: 10px;
+}
+.work-area{
+    width: 45%;
+    margin-left: 10px;
+}
+.btn-center{
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+/* footer area styles */
+footer{
+    background-color: rgb(255, 248, 243);
+    padding: 60px 120px;
+}
+.social-message-area{
+    display: flex;
+    justify-content: center;
+}
+.social-message-area h2{
+    margin-bottom: 20px;
+}
+.social-area{
+    width: 42%;
+    margin-right: 40px;
+
+}
+.message-area{
+    width: 42%;
+}
+input,textarea{
+    width: 100%;
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: white;
+    border-radius: 12px;
+    color: rgb(117, 117, 117);
+}
